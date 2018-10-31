@@ -24,9 +24,9 @@ Likewise, to compile and run the client:
     go run ./cmd/client/client.go
 ```
 
-# Documentation
+## Documentation
 
-# Contributing
+## Contributing
 
 Please refer to each project's style guidelines and guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
@@ -38,7 +38,7 @@ Please refer to each project's style guidelines and guidelines for submitting pa
 
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
-# Licensing
+## Licensing
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AAA-Intelligence/leuchtfeuer/LICENSE)
 
