@@ -2,6 +2,8 @@
 
 Easy to use decentralized chat application featuring end-to-end encryption. 
 
+<img src="./pictures/leuchtfeuer_concept.png"/>
+
 ## Installation
 
 ```go
