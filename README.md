@@ -2,11 +2,11 @@
 
 Easy to use decentralized chat application featuring end-to-end encryption. 
 
-<img src="./pictures/leuchtfeuer_concept.png"/>
+<img src="./img/leuchtfeuer_concept.png"/>
 
 ## Installation
 
-```go
+```bash
     go get "github.com/AAA-Intelligence/leuchtfeuer"
 ```
 
@@ -14,13 +14,13 @@ Easy to use decentralized chat application featuring end-to-end encryption.
 
 To compile and run the server, assuming you are in the folder $GOPATH/src/github/AAA-intelligence/leuchtfeuer/, simply:
 
-```go
+```bash
     go run ./cmd/server/server.go
 ```
 
 Likewise, to compile and run the client:
 
-```go
+```bash
     go run ./cmd/client/client.go
 ```
 
