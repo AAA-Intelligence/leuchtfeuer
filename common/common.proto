@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+message Empty {}
+
+message PublicKey {
+    string content = 1;
+}
+
+message OutgoingMessage {
+    string receiver = 1;
+    string content = 2;
+}
+
+message IncomingMessage {
+    string sender = 1;
+    string content = 2;
+}
+
+service Messenger {
+    rpc SetPublicKey(PublicKey) returns (Empty);
+    rpc SendMessage(OutgoingMessage) returns (Empty);
+    rpc ReceiveMessages(Empty) returns (stream IncomingMessage);
+}
+
+/*
+
+Protobuf:
+https://developers.google.com/protocol-buffers/docs/overview
+
+gRPC go:
+https://grpc.io/docs/tutorials/basic/go.html
+
+*/
